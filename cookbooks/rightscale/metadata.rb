@@ -4,7 +4,7 @@ license          "Copyright RightScale, Inc. All rights reserved."
 description      "Base recipes used to set up services used by the RightScale" +
                  " Cloud Management Platform."
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          "13.5.1"
+version          "14.0.0"
 
 supports "centos"
 supports "redhat"
