@@ -132,6 +132,7 @@ end
 if platform?('ubuntu')
   log "  Starting hostname service."
   service "hostname" do
+    provider Chef::Provider::Service::Upstart
     service_name "hostname"
     supports :restart => true, :status => true, :reload => true
     action :restart
